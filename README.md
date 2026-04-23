@@ -59,7 +59,7 @@
 
 ### Итоговая структура
 
-
+```
 submission_bundle/
 ├── main.py
 ├── setup_validation.py
@@ -82,13 +82,15 @@ submission_bundle/
 │   └── book_genres.csv
 └── data-old-hackathon/              ← данные прошлого хакатона
     └── interactions.csv
-
+```
 
 ## Запуск
 
 bash
+```
 pip install -r requirements.txt
 python main.py
+```
 
 
 main.py — единственная точка входа. Он делает следующее:
@@ -106,7 +108,7 @@ main.py — единственная точка входа. Он делает с
 
 ### requirements.txt
 
-
+```
 pandas>=2.0
 numpy>=1.24
 scipy>=1.10
@@ -118,7 +120,7 @@ torch>=2.0
 optuna>=3.0
 tqdm>=4.60
 lightgbm>=4.0
-
+```
 
 ## Воспроизводимость
 
