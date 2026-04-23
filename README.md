@@ -86,7 +86,6 @@ submission_bundle/
 
 ## Запуск
 
-bash
 ```
 pip install -r requirements.txt
 python main.py
