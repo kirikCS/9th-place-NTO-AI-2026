@@ -11,7 +11,7 @@
 - ~85 признаков (скоры моделей, SBERT-эмбеддинги, echo-сигналы, статистики)
 - CatBoost YetiRank, graded labels (0/1/2), 4 фолда
 
-**Pipeline 2 - LTR 2** (pipeline_v13.py -> sub_v13.csv)
+**Pipeline 2 - LTR 2** (pipeline_v13.py -> sub_v13.csv) 
 - Кандидаты: EASE@400, ALS@400, SVD@400, KNN, Author, Popular, Echo
 - ~161 признак (domain ALS, text embeddings, z-scores, ранк-перцентили)
 - CatBoost YetiRank, binary labels, fold decay
